@@ -23,9 +23,7 @@ h1{
     padding: auto;
 }
 .picture{
-    width: 500px;
-    position: relative;
-    bottom: 40px;
+    width: 80%;
     
 }
 #intro{
@@ -55,7 +53,7 @@ section{
     margin-top: 300px;
 }
 .work-banner{
-    background-image: url(/latest-work-bg.png);
+    background-image: url(latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -77,12 +75,42 @@ section{
     width: 500px;
     height: 120px;
     border-radius: 10px;
-    position: absolute;
-    left: 30%;
-    padding: 10px;
     text-align: center;
-    margin-top: 10px;
+    padding: 20px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.client{
+    width: 30%;
+
 }
 footer{
     text-align: center;
+   margin-top: 20%;
 }
+/* .prac{
+    background:rgb(184, 53, 74);
+    height: 50vh;
+    flex: 2;
+   
+}
+.prac1{
+    background: black;
+    height: 50vh;
+    flex: 1;
+}
+.p{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.prac:hover{
+    background: pink;
+    transition: 2s ease-out 1s;
+} */
